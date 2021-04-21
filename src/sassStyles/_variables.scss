@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* color */
+/* floral white - background */
+$main-color: #FFFEFA;
+/* Zumthor - box, card */
+$sec-color: #BBDADB;
+/* saffron - highlight, button */
+$aux-color: #ECC33A;
+/* night rider - paragraphs */
+$p-color: #333333;
+/* lunar green - headings */
+$heading-color: #4F5441;
+
+/* fonts */
+$main-font: "Roboto", sans-serif;
+$sec-font: "Open Sans", sans-serif;
+$spacing: 3px;
+
+/* width */
+$max-width: 1170px;
+$fixed-width: 700px;
+
+/* height */
+$nav-height: 60px;
+$main-height: calc(100vh - 60px);
+
+$radius: 5px;
