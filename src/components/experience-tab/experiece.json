@@ -1,0 +1,50 @@
+{
+  "jobs": [
+    {
+      "id": "0",
+      "title": "Front-End Engineer",
+      "company": "Russell Leong Design",
+      "dates": "August 2020 - Present",
+      "duties": ["Built the company website from scratch using HTML5, CSS3, Javascript, and jQuery.",
+                "Optimized the website by creating reusable UI components, increasing the initial loading speed by 40%.",
+                "Worked with the UI designer to fine-tune the website’s aesthetics and responsive UI."],
+      "skills": ["HTML5",
+                "CSS3",
+                "JavaScript",
+                "jQuery",
+                "React"]
+    },
+    {
+      "id": "1",
+      "title": "Software QA Engineer",
+      "company": "Broadcom",
+      "dates": "July 2017 - October 2018",
+      "duties": ["Created an internal analysis dashboard to monitor live competition test case results, which was critical in helping our team win six consecutive industry competitions.",
+                "Created bash scripts to automatically install Linux with predefined network settings on computers and servers to quickly deploy duplicate test environments, effectively reducing deployment time by 60%.",
+                "Developed test scripts for automated testing and regression testing to identify the performance of Broadcom’s latest wireless chip firmware.",
+                "Represented Broadcom in the Wi-Fi Alliance EasyMesh certification program. Verified and debugged communication between wireless routers accounting for inter-op issues between manufacturers, such as Broadcom, Qualcomm, Marvell, Intell, and MediaTek."],
+      "skills": ["Linux",
+                "IEEE 802.11ac/ax",
+                "Automated Testing",
+                "Wireshark",
+                "Iperf",
+                "IxChariot",
+                "JIRA",
+                "Confluence"]
+    },
+    {
+      "id": "2",
+      "title": "Marketing Assistant Intern",
+      "company": "Cybernet",
+      "dates": "March 2015 - June 2017",
+      "duties": ["Developed over 100 HTML webpages ranging from product instructions, technical articles, and case studies to drive B2B sales.",
+                "Increased company website traffic by 60% through search engine optimization by adding keywords and organizing HTML tags.",
+                "Created a digital simulation environment of the main roadway in Hsinchu city, using UC-win/Road which is a 3D real-time simulation software for road design.",
+                "Helped create a user manual for Cybernet Systems’ then-top product, Maple, a math software. Graphed mathematical equations using Maple and proofread the text and mathematical formulas."],
+      "skills": ["HTML",
+                "CSS",
+                "UC-win/Road",
+                "Maple"]
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Header from './components/header/Header.jsx';
 import Hero from './components/hero/Hero.components.jsx';
+import Experience from './components/experience/experience.jsx';
 
 import './index.css';
 
@@ -11,6 +12,7 @@ class App extends Component{
          <div className="portfolio">
             <Header />
             <Hero />
+            <Experience />
          </div>
       );
    }

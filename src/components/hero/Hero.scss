@@ -3,7 +3,7 @@
 @import '../../sassStyles/typography';
 
 .hero {
-  position: absolute;
+  position: relative;
   padding-top: $nav-height;
   width: 100vw;
   height: 100vh;
@@ -38,7 +38,7 @@
       border: 0.25rem solid $aux-color;
       border-radius: 50%;
     }
-    
+
     img {
       position: relative;
       width: 100%;

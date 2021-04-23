@@ -1,0 +1,9 @@
+@import '../../sassStyles/variables';
+
+.experience {
+  position: relative;
+  top: 0;
+  padding-top: $nav-height;
+  width: 100%;
+  background-color: $main-color;
+}

@@ -1,0 +1,47 @@
+@import '../../sassStyles/variables';
+
+.tab__container {
+  width: 80vw;
+  height: 1050px;
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.job-btn {
+	width: 200px;
+	display: block;
+	background-color: $main-color;
+	color: black;
+	padding: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 16px;
+  margin: 0 10px;
+  text-align: center;
+
+	&:hover {
+		color: $aux-color;
+		font-weight: bold;
+    border: none;
+    box-shadow: 0 2px $aux-color;
+	}
+}
+
+.job-btn.active-btn {
+	box-shadow: 0 2px $aux-color;
+}
