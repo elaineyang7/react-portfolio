@@ -8,9 +8,15 @@ class ExperienceTab extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      tabIndex: 0,
-      jobInfo: ''
+      tabIndex: 0
     };
+  }
+
+  handleTabClick = (props) => {
+    
+    this.setState ({
+      tabIndex: props
+    })
   }
 
   render(){
@@ -19,12 +25,12 @@ class ExperienceTab extends Component {
         <div className="tab">
           {jobs.map( (job, index) => (
             <button
-              key={job.id}
-              onClick={() => this.setState.tabIndex(index) && this.setState.jobInfo(job.title)}
+              key={index}
+              //onClick={() => this.setState.tabIndex(index) && this.setState.jobInfo(job.title)}
+              onClick={() => this.handleTabClick(index)}
               className={`job-btn ${index === this.state.tabIndex ? 'active-btn' : ''}`}
             >
               {job.company}
-              
             </button>
           ))}
         </div>

@@ -7,6 +7,7 @@ import Experience from './components/experience/experience.jsx';
 import './index.css';
 
 class App extends Component{
+
    render(){
       return(
          <div className="portfolio">
