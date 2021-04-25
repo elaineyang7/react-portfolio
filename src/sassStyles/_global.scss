@@ -44,5 +44,14 @@ a {
   background: $aux-color;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+  margin-bottom: 48px;
+}
+
+.skill__btn {
+  padding: 8px 10px;
+  border: 1px solid $aux-color;
+  border-radius: $radius;
+  background-color: $main-color;
+  color: $p-color;
+  margin: 10px 5px;
 }

@@ -13,8 +13,6 @@ class App extends Component{
         <Header />
         <Hero />
         <Experience />
-
-        <button onClick={() => this.helloThere()}>Speak</button>
       </div>
     );
   }

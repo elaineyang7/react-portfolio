@@ -76,7 +76,7 @@
       height: 30px;
       font-size: 30px;
       margin-top: 10px;
-      margin-right: 20px;
+      margin-right: 28px;
       color: $p-color;
 
       &:hover {
@@ -94,18 +94,37 @@
 
 @media (max-width: 992px) {
 	.hero {
-		height: 620px;
-	}
-	.hero__container {
-		flex-direction: column;
-	}
-	.hero__img {
-		width: 250px;
-		height: 250px;
-		margin-top: 50px;
-		margin-bottom: 50px;
-	}
-	.hero__info {
-		width: 100%;
+		height: 800px;
+    padding: 0;
+
+    &__container {
+      flex-direction: column;
+    }
+
+    &__img {
+      width: 250px;
+      height: 250px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    &__info {
+      width: 100%;
+    }
+
+    .social {
+  
+      &__icon {
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+        margin-right: 28px;
+  
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
 	}
 }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import heroImg from '../../assets/lamb.png';
+
 import './Hero.scss';
 
 class Hero extends Component {
@@ -7,7 +9,9 @@ class Hero extends Component {
     return (
       <div className="hero" id="home">
         <div className="hero__container">
-          <article className="hero__img"></article>
+          <article className="hero__img">
+            <img src={heroImg} alt="lamb image" />
+          </article>
           <article className="hero__info">
             <h1>i'm Elaine</h1>
             <div className="underline hero__underline"></div>
