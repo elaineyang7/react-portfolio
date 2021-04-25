@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { jobs } from './experiece.json';
+import { jobs } from '../experience/experiece.json';
 
 import './ExperienceTab.scss';
 
@@ -12,7 +12,7 @@ class ExperienceTab extends Component {
     };
   }
 
-  handleTabClick = (props) => {
+  handleTabClick(props) {
     
     this.setState ({
       tabIndex: props
