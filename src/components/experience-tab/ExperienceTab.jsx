@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import { jobs } from '../experience/experiece.json';
-import ExperienceContent from '../experience-content/experienceContent';
 
 import './ExperienceTab.scss';
 
@@ -29,7 +28,6 @@ class ExperienceTab extends Component {
           {jobs.map( (job, index) => (
             <button
               key={index}
-              //onClick={() => this.setState.tabIndex(index) && this.setState.jobInfo(job.title)}
               onClick={() => this.handleTabClick(index)}
               className={`job-btn ${index === this.state.tabIndex ? 'active-btn' : ''}`}
             >

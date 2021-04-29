@@ -1,19 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import SectionTitle from '../section-title/SectionTitle';
 import ExperienceTab from '../experience-tab/ExperienceTab';
 
 import './experience.scss';
 
-class Experience extends Component{
-  
-  render(){
-    return(
-      <section className="experience" id="experience">
-        <SectionTitle />
-        <ExperienceTab />
-      </section>
-    );
-  }
+const Experience = () => {
+  return(
+    <section className="experience" id="experience">
+      <SectionTitle />
+      <ExperienceTab />
+    </section>
+  );
 }
 export default Experience;
