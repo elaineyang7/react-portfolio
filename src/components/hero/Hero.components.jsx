@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 
-import heroImg from '../../assets/lamb.png';
+import heroImg from '../../assets/lamb-daisy.png';
 
 import './Hero.scss';
 
 class Hero extends Component {
+
   render() {
     return (
       <div className="hero" id="home">

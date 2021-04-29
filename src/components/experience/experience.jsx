@@ -11,7 +11,7 @@ class Experience extends Component{
     return(
       <section className="experience" id="experience">
         <SectionTitle />
-        <ExperienceTab onClick={this.click} />
+        <ExperienceTab />
       </section>
     );
   }
