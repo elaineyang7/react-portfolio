@@ -8,7 +8,7 @@ import './experience.scss';
 const Experience = () => {
   return(
     <section className="experience" id="experience">
-      <SectionTitle />
+      <SectionTitle title={`Experience`} />
       <ExperienceTab />
     </section>
   );

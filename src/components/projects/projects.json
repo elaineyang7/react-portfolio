@@ -1,0 +1,140 @@
+{
+  "projects": [
+    {
+      "id": "0",
+      "number": "01.",
+      "title": "Corporate Website of Russell Leong Design",
+      "description": "I was responsible for the structure of web pages and their implementation. Developed features to enhance the user experience. Optimized web pages for maximum speed and scalability. I worked closely with UI/UX Designer for responsive web design using CSS grid system and ensure the technical feasibility and all elements of web creation are consistent. Worked on rendering the form in the browser and validate input to providing an excellent user experience.",
+      "skills": ["HTML5",
+                "CSS3",
+                "JavaScript",
+                "jQuery",
+                "React"],
+      "view": "https://elaineyang7.github.io/russell-web-intro/index.html",
+      "github": "https://github.com/elaineyang7/RussellLeongDesign",
+      "image_link": "https://elaineyyang7.com/images/russell_portfolio_page.png"
+    },
+    {
+      "id": "1",
+      "number": "02.",
+      "title": "Lamb Handmade Store",
+      "description": "An E-commerce app with React and Firebase. This is an ongoing project, I will keep buiding it with Redux, Hooks, GraphQL, ContextAPI, and Stripe payment API. Hope I can build reactive, performant, large-scale applications like a senior developer through this project, and make good architecture decisions.",
+      "skills": ["React",
+                "SASS",
+                "Firebase"],
+      "view": "https://github.com/elaineyang7/React_E-commerce",
+      "github": "https://github.com/elaineyang7/React_E-commerce",
+      "image_link": "https://elaineyyang7.com/images/store.png"
+    },
+    {
+      "id": "2",
+      "number": "03.",
+      "title": "Microblogging",
+      "description": "A small social microblogging web application created by Python/Flask framework and SQLAlchemy to establish the backend and using Bootstrap to build the frontend. Based on Miguel Grinberg flask tutorial. Users are allow to sign up, log in with Google or Facebook account.",
+      "skills": ["Python",
+                "Flask",
+                "SQLAlchemy",
+                "Bootstrap",
+                "OAuth2",
+                "Heroku"],
+      "view": "https://thatlamblife.com/",
+      "github": "https://github.com/elaineyang7/Microblogging",
+      "image_link": "https://elaineyyang7.com/images/microblog.png"
+    },
+    {
+      "id": "3",
+      "number": "04.",
+      "title": "Facebook Messenger Clone",
+      "description": "A Facebook Messenger clone using React, and hosting real-time database with Firebase.",
+      "skills": ["React",
+                "CSS3",
+                "Firebase"],
+      "view": "https://facebook-messenger-clone-6796a.firebaseapp.com/",
+      "github": "https://github.com/elaineyang7/facebook-messenger-clone",
+      "image_link": "https://elaineyyang7.com/images/messenger.png"
+    },
+    {
+      "id": "4",
+      "number": "05.",
+      "title": "Handmade Rubber Stamps Timeline",
+      "description": "This vertical timeline shows some of my handmade rubber stamps.",
+      "skills": ["HTML5",
+                "CSS3",
+                "JavaScript"],
+      "view": "https://elaineyang7.github.io/stamp_timeline/index.html",
+      "github": "https://github.com/elaineyang7/elaineyang7.github.io/tree/master/stamp_timeline",
+      "image_link": "https://elaineyyang7.com/images/stamps.png"
+    },
+    {
+      "id": "5",
+      "number": "06.",
+      "title": "Meow Meow Clock",
+      "description": "JavaScript web app with interactive clocks that changes the cat’s image and message according to the events set by the user during the day and by clicking the Party Time button.",
+      "skills": ["HTML5",
+                "CSS3",
+                "JavaScript"],
+      "view": "https://elaineyang7.github.io/meowClock/index.html",
+      "github": "https://github.com/elaineyang7/elaineyang7.github.io/tree/master/meowClock",
+      "image_link": "https://elaineyyang7.com/images/meow_clock.png"
+    },
+    {
+      "id": "6",
+      "number": "07.",
+      "title": "Map of the Volcano and Population",
+      "description": "This map is to visualize volcano and population data of the United States. The locations of the volcanoes are marked, their colors set according to the elevation.",
+      "skills": ["Python",
+                "Folium",
+                "Pandas"],
+      "view": "https://elaineyang7.github.io/mapping/Map1.html",
+      "github": "https://github.com/elaineyang7/python_folium_webmap",
+      "image_link": "https://elaineyyang7.com/images/volcanoes.png"
+    },
+    {
+      "id": "7",
+      "number": "08.",
+      "title": "Online Shopping Application",
+      "description": "Developed Java Swing GUI application with durable storage, basic account management, and e-commerce-like interactions.",
+      "skills": ["Java",
+                "Swing",
+                "OOP"],
+      "view": "https://github.com/elaineyang7/Online_Shopping_Application",
+      "github": "https://github.com/elaineyang7/Online_Shopping_Application",
+      "image_link": "https://elaineyyang7.com/images/java_swing.png"
+    },
+    {
+      "id": "8",
+      "number": "09.",
+      "title": "Mobile App",
+      "description": "This Flutter mobile app based on the source code “We Rate Dogs example app”, allows users to add new post of products and view the products list.",
+      "skills": ["Flutter"],
+      "view": "https://github.com/elaineyang7/mobile_app",
+      "github": "https://github.com/elaineyang7/mobile_app",
+      "image_link": "https://elaineyyang7.com/images/app.png"
+    },
+    {
+      "id": "9",
+      "number": "10.",
+      "title": "Handwritten Numbers Recognition",
+      "description": "Used machine learning algorithms and data analysis to recognize the MNIST dataset of handwritten numbers by using Python libraries such as scikit-learn, NumPy, and Pandas.",
+      "skills": ["Python",
+                "scikit-learn",
+                "NumPy",
+                "Pandas"],
+      "view": "https://github.com/elaineyang7/Handwritten_Numbers_Recognition",
+      "github": "https://github.com/elaineyang7/Handwritten_Numbers_Recognition",
+      "image_link": "https://elaineyyang7.com/images/handwritten.png"
+    },
+    {
+      "id": "10",
+      "number": "11.",
+      "title": "Dynamical  Modelling of Extra-Solar Planetary System Kepler 16",
+      "description": "A binary star is a star system consisting of two stars orbiting around their common center of mass. Kepler-16b (formally Kepler-16 (AB)-b) is an extra-solar planet outside the Solar System. There are two stars star A and star B and a planet in the system. Used the fourth-order Runge Kutta Method, to analyze the difference between planets orbits with different initial velocities.",
+      "skills": ["C++",
+                "Numerical Analsis",
+                "Runge Kutta Method"],
+      "view": "https://github.com/elaineyang7/numerical_analysis",
+      "github": "https://github.com/elaineyang7/numerical_analysis",
+      "image_link": "https://elaineyyang7.com/images/fig3xy.png"
+    }
+  ]
+}

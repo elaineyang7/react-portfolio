@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import { jobs } from '../experience/experiece.json';
+import SkillButton from '../skill-button/SkillButton';
 
 import './ExperienceTab.scss';
 
@@ -27,7 +28,7 @@ class ExperienceTab extends Component {
         <div className="tab">
           {jobs.map( (job, index) => (
             <button
-              key={index}
+              key={index} 
               onClick={() => this.handleTabClick(index)}
               className={`job-btn ${index === this.state.tabIndex ? 'active-btn' : ''}`}
             >
@@ -50,12 +51,11 @@ class ExperienceTab extends Component {
               ))}
             </ul>
             {this.state.content.skills.map( (skill, index) => (
-              <button
+              <SkillButton
                 key={index}
-                className="skill__btn"
-              >
-                {skill}
-              </button>
+                classname={`skill__btn`}
+                skill={skill}
+              />
             ))}
           </div>
         </div>
