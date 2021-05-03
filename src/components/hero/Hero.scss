@@ -65,30 +65,7 @@
     margin-bottom: 20px;
   }
 
-  .social {
-    margin: 0;
-    padding: 32px 20px 20px 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    &__icon {
-      width: 30px;
-      height: 30px;
-      font-size: 30px;
-      margin-right: 28px;
-      color: $p-color;
-
-      &:hover {
-        color: $aux-color;
-      }
-
-      svg {
-        width: 30px;
-        height: 30px;
-      }
-    }
-  }
+  
 }
 
 @media (max-width: 992px) {
@@ -109,21 +86,6 @@
 
     &__info {
       width: 100%;
-    }
-
-    .social {
-  
-      &__icon {
-        width: 24px;
-        height: 24px;
-        font-size: 24px;
-        margin-right: 28px;
-  
-        svg {
-          width: 24px;
-          height: 24px;
-        }
-      }
     }
 	}
 }

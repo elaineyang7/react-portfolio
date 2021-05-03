@@ -1,13 +1,20 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+//import AOS from 'aos';
 
 import SkillButton from '../skill-button/SkillButton';
 
 import './ProjectCard.scss';
 
 const ProjectCard = ({ classname, project }) => {
+
+  /*useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+  }, []);*/
   
-  var span;
-  var heading;
+  let span;
+  let heading;
   if (classname === 'project') {
     span = <span className="project__num">{project.number}</span>
     heading = <h3>{project.title}</h3>
