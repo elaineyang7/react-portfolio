@@ -18,6 +18,10 @@ module.exports = {
           loader: 'babel-loader',
         },
         {
+          test: /\.css$/,  
+          use: ['style-loader', 'css-loader'],
+        },
+        {
           test: /\.s[ac]ss$/i,
           use: [ 
             'style-loader', 
@@ -26,7 +30,7 @@ module.exports = {
           ],
         },
         {
-          test: /\.(png|svg|jpg|gif)$/,
+          test: /\.(png|svg|jpg|gif|pdf)$/,
           use: [
             'file-loader'
           ]
@@ -38,7 +42,7 @@ module.exports = {
        new HtmlWebpackPlugin({
             template: './dist/index.html',
             favicon: 'public/favicon.ico'
-       }) 
+       }), 
    ],
    resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.scss'],
