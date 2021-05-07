@@ -1,9 +1,7 @@
 # Personal Portfolio Website with React
 This is my portfolio website, showing my recent work.
 
-<p align="center">
-  <img src="https://elaineyyang7.com/images/personal_website.png width="500">
-</p>
+![Image](https://elaineyyang7.com/images/personal_website.png)
 
 [Visit Website](https://elaineyyang7.com)
 
