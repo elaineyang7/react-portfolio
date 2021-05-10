@@ -41,7 +41,7 @@ module.exports = {
    plugins:[
        new HtmlWebpackPlugin({
             template: './dist/index.html',
-            favicon: 'public/favicon.ico'
+            favicon: 'public/lamb.ico'
        }), 
    ],
    resolve: {

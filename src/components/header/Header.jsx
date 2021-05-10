@@ -26,7 +26,13 @@ const Header = () => {
               <a href="#projects">projects</a>
             </li>
             <li>
-              <a href="Elaine-Yang-Resume.pdf" className="a__spacing" download target = "_blank">resume</a>
+              <a 
+                className="a__spacing" 
+                href="https://drive.google.com/file/d/1TQpk1DG9lKYbaxPxhct7RCULdE86b2DI/view?usp=sharing"
+                target="_blank"
+              >
+                resume
+              </a>
             </li>
           </ul>
 

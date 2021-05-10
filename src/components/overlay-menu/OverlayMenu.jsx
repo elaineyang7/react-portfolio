@@ -31,8 +31,8 @@ const OverlayMenu = ({ open, setOpen }) => {
         </li>
         <li>
           <a 
-            href="Elaine-Yang-Resume.pdf" 
-            download target = "_blank" 
+            href="https://drive.google.com/file/d/1TQpk1DG9lKYbaxPxhct7RCULdE86b2DI/view?usp=sharing"
+            target="_blank" 
             open={open} 
             onClick={() => setOpen(!open)}
           >
