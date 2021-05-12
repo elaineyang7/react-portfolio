@@ -11,8 +11,12 @@ This is my portfolio website, showing my recent work.
 * SASS
 * Webpack
 * Babel
+* Styled Components
+* AOS
 
 
 ## Features
 * Shows work experience and projects
 * Responsive design (desktop / mobile)
+* Convert React JSX to JS using Babel.
+* Bundle the react app with Webpack.
